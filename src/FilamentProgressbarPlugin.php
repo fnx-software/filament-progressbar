@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Blade;
 
 class FilamentProgressbarPlugin implements Plugin
 {
-    protected string $color = '#29b';
+    protected string $color = '#ef4444';
 
     protected string $renderHook = 'panels::head.end';
 
